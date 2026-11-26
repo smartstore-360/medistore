@@ -4,8 +4,8 @@
  * requests: sales and data always go to the server, or to the outbox inside
  * the app when offline.
  */
-const VERSION = 'ms360-v4.0';
-const SHELL = ['./', './manifest.webmanifest', './icon-192.png', './icon-512.png', './apple-touch-icon.png'];
+const VERSION = 'ms360-v4.0.1';
+const SHELL = ['./', './manifest.webmanifest', './icon-192.png?v=4', './icon-512.png?v=4', './apple-touch-icon.png?v=4'];
 const CDN = [
   ['https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap', 'no-cors'],
   ['https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css', 'no-cors'],
